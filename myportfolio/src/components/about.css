@@ -1,0 +1,98 @@
+.about {
+    background-color: #21242c;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px 10px 10px;
+    padding: 30px 75px;
+    gap: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.about h6 {
+    font-weight: normal;
+    font-size: 25px;
+    color: yellow;
+}
+
+.about p {
+    text-align: justify;
+}
+
+.divider {
+
+    background-color: white;
+    height: 1px;
+    width: 100%;
+    opacity: 10%;
+}
+
+.about h5 {
+    margin: 10px 0 0 0;
+    font-weight: normal;
+    font-size: 20px;
+    color: #f33a81;
+}
+
+.skill {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 0;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+.skillsec1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.skillsec1 p {
+    opacity: 70%;
+    font-size: 15px;
+}
+
+.skill img {
+    height: 90px;
+    width: auto;
+    background-color: hsla(0, 0%, 100%, 0.3);
+    padding: 10px;
+    border-radius: 10px;
+    border: rgba(150, 144, 144, 0.911) solid .5px;
+    animation: mymoves 10s infinite;
+}
+
+@keyframes mymoves {
+    50% {
+        background-color: hsla(61, 58%, 55%, 0);
+    }
+}
+
+.skill img:hover {
+    background-color: hsl(0, 0%, 100%);
+}
+
+@media (max-width:700px) {
+
+    .about {
+        padding: 30px;
+        font-size: 15px;
+    }
+
+    .about h6 {
+        font-size: 25;
+    }
+
+    .skillsec1 img {
+        height: 50px;
+
+    }
+
+    .skill img:hover {
+        background-color: hsla(0, 0%, 100%, .8);
+    }
+}

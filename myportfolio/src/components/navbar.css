@@ -1,0 +1,182 @@
+.navbackgroud {
+    background-color: #3E4454;
+    /* background-color: pink; */
+    position: sticky;
+    top: 0;
+    margin: 0 10px 0 10px;
+    padding: 10px 0 0 0;
+    height: 86px;
+    z-index: 1000;
+    overflow: hidden;
+}
+
+.Navbar img {
+    width: 35px;
+    height: 35px;
+}
+
+.Navbar {
+    background-color: #21242c;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 15px;
+}
+
+.navbarsec1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbarsec1 p {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.navbarsec2 {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbarsec2 p {
+    cursor: pointer;
+}
+
+.navbarsec2 p:hover {
+    color: #F75023;
+}
+
+.navbarsec2 span {
+    padding: 7px 10px;
+    cursor: pointer;
+    border: #F75023 solid 2px;
+    border-radius: 20px;
+    animation: mymove 3s infinite;
+
+}
+
+@keyframes mymove {
+    50% {
+        border-color: rgb(45, 255, 237);
+    }
+
+    50% {
+        background-color: rgb(16, 83, 83);
+    }
+
+}
+
+.navbarsec2 span:hover {
+    text-decoration: none;
+    background-image: linear-gradient(to right, #F75023, #ac2c09);
+    border: #21242c solid 2px;
+    animation:none
+}
+
+
+
+.navbarsec2 span:hover p {
+    color: white;
+}
+
+#menubar {
+    display: none;
+    cursor: pointer;
+
+}
+
+.Navbarvertical {
+    background-color: hsla(0, 0%, 0%, 0.90);
+    backdrop-filter: blur(4px);
+    font-size: 25px;
+    display: flex;
+    width: 99%;
+    height: 400px;
+    justify-content: center;
+    border-radius: 10px;
+    position: absolute;
+    top: 2px;
+    right: -100%;
+    z-index: 150;
+    display: none;
+
+
+}
+
+.closebtn {
+    position: absolute;
+    cursor: pointer;
+    right: 15px;
+    top: 15px;
+    border: solid rgb(240, 184, 184) 1px;
+    padding: 1px 8px;
+    border-radius: 5px;
+    background-color: hsla(0, 0%, 100%, 0.3);
+
+}
+
+.navbarsec2ver {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 60px 20px 20px 20px;
+    z-index: 400;
+
+
+}
+
+.navbarsec2ver p {
+    cursor: pointer;
+}
+
+.navbarsec2ver p:hover {
+    color: #F75023;
+    ;
+}
+
+.navbarsec2ver a p {
+    border: #F75023 solid 1px;
+    padding: 7px 9px;
+    border-radius: 25px;
+}
+
+.navbarsec2ver a p:hover {
+    background-color: #F75023;
+    color: white;
+}
+
+.invisiblelayer {
+    background-color: hsla(0, 0%, 100%, 0);
+    height: 100vh;
+
+}
+
+/* =============================== */
+
+
+/* Media query for smaller screens (e.g., tablets) */
+
+@media (max-width: 700px) {
+    .Navbarvertical {
+        display: block;
+
+    }
+
+    .navbarsec2 {
+        display: none;
+    }
+
+    #menubar {
+        display: block;
+    }
+
+}
