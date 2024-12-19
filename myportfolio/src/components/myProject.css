@@ -97,3 +97,12 @@ button img {
 
 }
 
+@media (max-width: 700px) {
+
+    .myproject {
+
+        padding: 30px 15px;
+
+
+    }
+}
