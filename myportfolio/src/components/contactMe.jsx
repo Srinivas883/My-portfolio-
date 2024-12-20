@@ -24,7 +24,7 @@ function ContactMe() {
             return;
         } else {
             setstatus(true)
-            axios.post("http://localhost:5000/sendemail", { name: name, email: email, phone: phone, sub: sub, msg: msg }).then((data) => {
+            axios.post("https://my-portfolio-pkts.onrender.com/sendemail", { name: name, email: email, phone: phone, sub: sub, msg: msg }).then((data) => {
                 if (data.data === true) {
                     alert("Form submitted successfully")
                     setstatus(false)
