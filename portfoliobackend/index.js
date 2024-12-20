@@ -62,8 +62,6 @@ app.post("/sendemail", (req, res) => {
         console.log(error)
     })
 
-
-
 })
 
 app.listen(5000, () => {
