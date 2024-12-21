@@ -1,11 +1,15 @@
 import "./myProject.css"
-import thumbnail from "../assets/Thumbnail.png"
+// import thumbnail from "../assets/Thumbnail.png"
 import git from "../assets/git.png"
 import udemy from "../assets/udemy.png"
 import tripadvisor from "../assets/tripadvisor.png"
 import greenden from "../assets/greenden.png"
 import nostra from "../assets/nostra.png"
 import acttodo from '../assets/acttodo.png'
+import bulkmail from '../assets/bulkmail.png'
+import weather from '../assets/weather.png'
+import bigbasket from '../assets/bigbasket.png'
+import blogapp from '../assets/blogapp.png'
 
 function MyProject() {
 
@@ -81,46 +85,47 @@ function MyProject() {
                 </div>
 
                 <div className="card">
-                    <img src={thumbnail} alt="" />
+                    <img src={weather} alt="" />
                     <p className="proname">Live Weather App</p>
-                    <p className="prodes1">description</p>
+                    <p className="prodes1">WeatherApp is a weather report app built with React.js, utilizing Axios and the OpenWeather API for real-time data.</p>
                     <p className="prodes2">HTML/CSS/Javascript</p>
                     <div className="projectbtns">
-                        <button className="button1" onClick={() => handleButtonClick('')}>👁️ Live demo</button>
-                        <button className="button2" onClick={() => handleButtonClick('')}><img src={git} alt="" />Gitlink</button>
+                        <button className="button1" onClick={() => handleButtonClick('https://live-weather-app-smoky.vercel.app/')}>👁️ Live demo</button>
+                        <button className="button2" onClick={() => handleButtonClick('https://github.com/Srinivas883/LiveWeatherApp.git')}><img src={git} alt="" />Gitlink</button>
                     </div>
                 </div>
 
                 <div className="card">
-                    <img src={thumbnail} alt="" />
+                    <img src={bulkmail} alt="" />
                     <p className="proname">Bulk Mail</p>
-                    <p className="prodes1">description</p>
-                    <p className="prodes2">HTML/CSS/Javascript</p>
+                    <p className="prodes1">BulkMail App easily simplifies email tasks using React.js and Node.js, enabling fast bulk delivery.</p>
+                    <p className="prodes2">HTML/CSS/React.js</p>
                     <div className="projectbtns">
-                        <button className="button1" onClick={() => handleButtonClick('')}>👁️ Live demo</button>
-                        <button className="button2" onClick={() => handleButtonClick('')}><img src={git} alt="" />Gitlink</button>
+                        <button className="button1" onClick={() => handleButtonClick('https://bulkmailapp.vercel.app/')}>👁️ Live demo</button>
+                        <button className="button2" onClick={() => handleButtonClick('https://github.com/Srinivas883/Bulkmailapp.git')}><img src={git} alt="" />Gitlink</button>
                     </div>
                 </div>
 
                 <div className="card">
-                    <img src={thumbnail} alt="" />
+                    <img src={blogapp} alt="" />
                     <p className="proname">Blog</p>
-                    <p className="prodes1">description</p>
-                    <p className="prodes2">HTML/CSS/Javascript</p>
+                    <p className="prodes1">Blog is a simple platform built with React.js, featuring a login and signup page for user authentication.</p>
+                    <p className="prodes2">HTML/CSS/React.js</p>
                     <div className="projectbtns">
-                        <button className="button1" onClick={() => handleButtonClick('')}>👁️ Live demo</button>
-                        <button className="button2" onClick={() => handleButtonClick('')}><img src={git} alt="" />Gitlink</button>
+                        <button className="button1" onClick={() => handleButtonClick('https://myblogreact.vercel.app/home')}>👁️ Live demo</button>
+                        <button className="button2" onClick={() => handleButtonClick('https://github.com/Srinivas883/Myblogreact.git')}><img src={git} alt="" />Gitlink</button>
                     </div>
                 </div>
 
                 <div className="card">
-                    <img src={thumbnail} alt="" />
-                    <p className="proname">ecommerce clone</p>
-                    <p className="prodes1">description</p>
-                    <p className="prodes2">HTML/CSS/Javascript</p>
+                    <img src={bigbasket} alt="" />
+                    <p className="proname">BigBasket Clone</p>
+                    <p className="prodes1">BigBasket Clone is a e-commerce app built with
+                        React.js & CSS, with Firebase authentication.</p>
+                    <p className="prodes2">HTML/CSS/React.js</p>
                     <div className="projectbtns">
-                        <button className="button1" onClick={() => handleButtonClick('')}>👁️ Live demo</button>
-                        <button className="button2" onClick={() => handleButtonClick('')}><img src={git} alt="" />Gitlink</button>
+                        <button className="button1" onClick={() => handleButtonClick('https://bigbasketclone-xi.vercel.app/')}>👁️ Live demo</button>
+                        <button className="button2" onClick={() => handleButtonClick('https://github.com/Srinivas883/Bigbasketclone.git')}><img src={git} alt="" />Gitlink</button>
                     </div>
                 </div>
 
