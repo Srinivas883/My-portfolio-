@@ -124,8 +124,8 @@ function MyProject() {
                         React.js & CSS, with Firebase authentication.</p>
                     <p className="prodes2">HTML/CSS/React.js</p>
                     <div className="projectbtns">
-                        <button className="button1" onClick={() => handleButtonClick('https://bigbasketclone-xi.vercel.app/')}>👁️ Live demo</button>
-                        <button className="button2" onClick={() => handleButtonClick('https://github.com/Srinivas883/Bigbasketclone.git')}><img src={git} alt="" />Gitlink</button>
+                        <button className="button1" onClick={() => handleButtonClick('https://bigbasketclone2.vercel.app/')}>👁️ Live demo</button>
+                        <button className="button2" onClick={() => handleButtonClick('https://github.com/Srinivas883/Bigbasketclone2.git')}><img src={git} alt="" />Gitlink</button>
                     </div>
                 </div>
 
